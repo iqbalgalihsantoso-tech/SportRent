@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+        <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#7c3aed" />
+                <stop offset="100%" stop-color="#a78bfa" />
+            </linearGradient>
+            <pattern id="lines" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+            </pattern>
+        </defs>
+        <rect width="800" height="500" fill="url(#grad)" />
+        <rect width="800" height="500" fill="url(#lines)" />
+        
+        <!-- Futsal Court Markings -->
+        <rect x="60" y="40" width="680" height="420" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4" rx="8"/>
+        <line x1="400" y1="40" x2="400" y2="460" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+        <circle cx="400" cy="250" r="70" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+        <circle cx="400" cy="250" r="5" fill="rgba(255,255,255,0.8)"/>
+        
+        <!-- Penalty Area Left & Right -->
+        <path d="M 60 160 A 90 90 0 0 1 150 250 A 90 90 0 0 1 60 340" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+        <path d="M 740 160 A 90 90 0 0 0 650 250 A 90 90 0 0 0 740 340" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+        
+        <!-- Badge -->
+        <rect x="90" y="70" width="160" height="36" rx="18" fill="rgba(0,0,0,0.3)" />
+        <text x="170" y="93" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Modular Court</text>
+        
+        <!-- Text Title -->
+        <text x="400" y="410" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" letter-spacing="1">Lapangan Interlock Premier</text>
+        <text x="400" y="435" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">SportRent High Quality Futsal Experience</text>
+    </svg>

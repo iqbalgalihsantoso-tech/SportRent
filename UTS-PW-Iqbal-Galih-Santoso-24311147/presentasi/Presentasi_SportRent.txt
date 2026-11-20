@@ -1,0 +1,13 @@
+PANDUAN SLIDE PRESENTASI UJIAN TENGAH SEMESTER (UTS)
+Judul: SportRent - Futsal Court Booking Management System
+Pengembang: Iqbal Galih Santoso (24311147) - SI24B
+Universitas Teknokrat Indonesia
+
+Slide 1: Judul Project, Logo SportRent, Identitas Mahasiswa & Kampus
+Slide 2: Latar Belakang & Masalah (Antrean sewa konvensional & resiko double booking)
+Slide 3: Solusi SportRent (Reservasi online, pencegahan bentrok jadwal, verifikasi transfer)
+Slide 4: Arsitektur Sistem & ERD Database (4 Tabel: users, lapangan, bookings, payments)
+Slide 5: Fitur Utama Admin (CRUD Lapangan, CRUD Booking, Verifikasi Bayar, Laporan Pendapatan)
+Slide 6: Fitur Utama Customer (Katalog Lapangan, Pemesanan Real-Time, Riwayat Pemesanan)
+Slide 7: Keamanan & Validasi (AuthFilter, Session Role, Hash BCRYPT, Anti Schedule Overlap)
+Slide 8: Demo Aplikasi & Tanya Jawab
